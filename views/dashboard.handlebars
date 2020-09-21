@@ -1,0 +1,145 @@
+<div class="container-fluid datatable_sec" id="datatable_sec">
+  <div class="panel panel-default dashboard_section">
+                <div class="panel-heading">
+                   Dashboard
+                </div>
+                <div class="row">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="documenttype" class="col-sm-5" >Document type:</label>
+                            <div class="col-sm-6">
+                                <select id="documenttype" class="form-control">
+                                    <option selected>--Select Document type--</option>
+                                    <option value="1">All</option>
+                                    <option value="2">PO's</option>
+                                    <option value="3">CR Notes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="duration" class="col-sm-4">Duaration:</label>
+                            <div class="col-sm-6">
+                                <select id="duration" class="form-control">
+                                    <option selected>--Select Duaration--</option>
+                                    <option value="1">Last 24 HRS</option>
+                                    <option value="2">Last 30 Days</option>
+                                    <option value="3">Last 365 Days</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+                <div class="homeContentWrap" style="width:100%"> 
+                    <div class="homecontentBlock">
+                        <div class="contentGridTR">
+                        <!-- CI Association - Starts-->
+                        <div class="contentContnr">
+                            <div class="contentHeading">
+                                
+                            </div>
+                            <div class="contentGridTR">
+                                <div class="contentGridDataTR">
+                                    <div class="gridHeadingTR">
+                                    <!-- <img class="imgs"  src="<c:url value="/resources/images/My Associations.png"/>" border="0" width="30px" height="30px">
+                                        &nbsp; &nbsp; -->
+                                     Status
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="CustomerAssociated" onclick="LoadBeanDetails(this.id);return false;">30</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                    Documents waiting to Print
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="VendorGroupAssociated" onclick="LoadBeanDetails(this.id);return false;">14</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                    Unmatched PO's
+                                                </div>
+                                            </div>
+                                        </div>                        
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="SitesAssociated" onclick="LoadBeanDetails(this.id);return false;">4</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                    Errors
+                                                </div>
+                                            </div>
+                                        </div>   
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="SitesAssociated" onclick="LoadBeanDetails(this.id);return false;">1</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                   Overdue
+                                                </div>
+                                            </div>
+                                        </div>                      
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="clrFloat"></div>
+                        <!-- CI Association & Statistics- Ends-->
+                        <!-- Miscellaneous Block- Starts -->
+                        <div class="contentContnr">
+                            <div class="contentHeading">
+                               
+                            </div>        
+                            <!-- Incident -->
+                            <div class="contentGridTR">
+                                <div class="contentGridDataTR">
+                                    <div class="gridHeadingTR">
+                                    <!-- <img class="imgs"  src="<c:url value="/resources/images/Incident.PNG"/>" border="0" width="30px" height="30px">
+                                         &nbsp; &nbsp; -->
+                                        Activity
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4" style="width: 48.333333%;">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="CustomerAssociated" onclick="LoadBeanDetails(this.id);return false;">55</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                    Document printed in the last 24 HRS
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4" style="width: 48.333333%;">
+                                            <div class="gridInnerBlock">
+                                                <div class="countNoBlock">
+                                                    <a href="" id="VendorGroupAssociated" onclick="LoadBeanDetails(this.id);return false;">3</a>
+                                                </div>
+                                                <div class="countHeadingText">
+                                                    Document emailed in the last 24 HRS
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="clrFloat"></div>
+                        <!-- Transactions - Incident Block - Ends -->
+                        </div>
+                      
+                    </div>
+                </div>
+                
+
+              </div>
+       </div>     

@@ -1,0 +1,101 @@
+<body>
+<div id="top">
+<div class="sidebar" data-background-color="green" data-color="white" id="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        
+            <div class="sidebar-wrapper ps" id="sidebar-text">
+                <div class="user">
+                    <div class="photo">
+                        <img src="https://lh3.googleusercontent.com/-1NI2xCmYlQ0/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckj5LD4TnCu56v6tdlYuIH6pHspFA/s96-c/photo.jpg">
+                    </div>
+                    <div class="user-info">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseExample">
+                            <span>Swetha Mayakoti (TCS) <br>
+                                <span class="user-role">Admin</span><br>
+                                <span class="caret" style="top:25px"></span>
+                            </span>
+                        </a>
+                        <div class="collapse" id="collapseExample">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">
+                                        <span class="sidebar-mini">L</span>
+                                        <span class="sidebar-normal" tabindex="0">Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 <!---->
+                <ul class="nav">
+                <!---->
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/dashboard"><i class="material-icons">home</i><p>Dashboard</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/waitingtoprint"><i class="material-icons">print</i><p>Waiting to Print</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/unmatchedpo"><i class="material-icons">article</i><p>Unmatched PO's</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/printeddocuments"><i class="material-icons">credit_card</i><p>Printed Documents</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/emaileddocuments"><i class="material-icons">attach_email</i><p>Emailed Documents</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                    <li class="nav-item">
+                        <!---->
+                        <a class="nav-link menulist" href="/exceptions"><i class="material-icons">error</i><p>Exceptions</p></a>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </li>
+                  </ul>
+            </div>
+    </div>
+     <div class="main-panel" id="main-panel">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                   <div class="navbar_brand">
+                    <button class="btn menubar" onclick="openSidemenu()" >
+                        <i class="material-icons menuicon">menu</i>
+                       </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+$(document).ready(function() {
+    // $(".datatable_sec").hide();
+    //$(".waiting_to_print_table").hide();
+    // $(".umnatched_purchase_table").hide();
+    // $(".printed_documents_table").hide();
+    // $(".emailed_docs_table").hide();
+});
+</script>

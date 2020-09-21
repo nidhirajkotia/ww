@@ -1,0 +1,42 @@
+
+    <div class="container-fluid datatable_sec" id="datatable_sec">
+            
+            <div class="panel panel-default waiting_to_print_table">
+              <div class="panel-heading">
+                 Waiting to Print
+                </div>
+              <div class="panel-body">
+                <div class="waiting_to_print">
+                    <table id="waitingtoprint" class="table table-striped table-bordered dt-responsive nowrap display" style="width:100%">
+                        <thead class="table_heading">
+                            <tr>
+                                <th>Vendor</th>
+                                <th>Type</th>
+                                <th>PO/CR No</th>
+                                <th>Date Ready</th>
+                                <th>Print</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {{#each this.data}}
+                                <tr>
+                                    <td>{{this.VENDOR}}</td>
+                                    <td>{{this.TYPE}}</td>
+                                    <td>{{this.INVOICE_NUMBER}}</td>
+                                    <td>{{this.CREATED_DATETIME}}</td>
+                                    <td></td>
+                                </tr>
+                            {{/each}}                            
+                           
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+              <div class="panel-footer print">
+               
+              </div>
+            </div>
+        
+    </div>
+            
